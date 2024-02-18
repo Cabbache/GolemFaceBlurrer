@@ -1,0 +1,121 @@
+.App-content {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-image: linear-gradient(to right, #4b4b4b, #2c2c2c, #4b4b4b);
+}
+
+.App-content2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+	padding: 20px;
+}
+
+.App-header {
+  background-color: #007bff;
+  padding: 5px;
+  color: #ffffff;
+  display: flex;
+  align-items: 'center';
+  justify-content: center;
+  gap: 20px;
+}
+
+.App-header img {
+  max-width: 10%;
+  height: auto; /* Maintains the aspect ratio of the image */
+  object-fit: contain; /* Ensures the image keeps its aspect ratio */
+}
+
+.App-header h1 {
+  margin: 0; /* Removes default margin from h1 to help with alignment */
+  /* Adjust font size as needed */
+}
+
+.App-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px; /* Adds space between the boxes */
+}
+
+.Options,
+.Actions,
+.Results {
+  flex: 1;
+  min-width: 250px; /* Minimum width for smaller screens */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.Logs {
+  flex-basis: 100%; /* Makes logs take full width */
+  max-height: 200px; /* Set a max-height for your scrollable area */
+  overflow-y: auto; /* Enables vertical scrolling */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.Option-item {
+  margin-bottom: 15px;
+}
+
+input[type='text'],
+input[type='file'],
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.help-button {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  width: 50px; /* Size of the square */
+  height: 50px; /* Size of the square */
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 30px; /* Aligns '?' vertically */
+  text-align: center; /* Aligns '?' horizontally */
+  padding: 0; /* Removes default padding */
+  border: 1px solid #ccc; /* Optional: adds border */
+  background-color: #000; /* Optional: background color */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
