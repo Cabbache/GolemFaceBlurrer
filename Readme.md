@@ -7,7 +7,7 @@ Through the browser, you upload your video to a golem provider and you download 
 
 ## Demo
 
-You can see it (https://cabbache.github.io/degen/)[here] but you would need to be able to access yagna over an https url.
+You can see it [here](https://cabbache.github.io/degen/) but you would need to be able to access yagna over an https url.
 
 ## Usage and docs
 Build and run the included Dockerfile. The webpage is hosted inside the container on port 80 and it includes more information in markdown.
